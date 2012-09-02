@@ -1,26 +1,18 @@
 {
-  "name":         "lofty",
-  "description":  "A node build script for Lava WordPress Plugins",
-  "keywords":     ["wordpress", "plugins", "build", "compiler"],
-  "author":       "Daniel Chatfield",
-  "version":      "1.0.0",
-  "licenses":     [{
-    "type":       "GPLv2"
-  }],
-  "engines":      {
-    "node":       ">=0.4.0"
-  },
-  "directories" : {
-  },
-  "main" : "./lofty",
+  "name": "lofty",
+  "version": "0.0.0",
+  "description": "A builder for WordPress plugins created with the Lava Framework.",
+  "main": "/lib/lofty.js",
   "scripts": {
+    "test": "./lib/lofty.js test"
   },
-  "homepage":     "https://github.com/volcanicpixels/Node-Lofty",
-  "bugs":         "https://github.com/volcanicpixels/Node-Lofty/issues",
-  "repository":   {
+  "repository": {
     "type": "git",
-    "url": "git://github.com:volcanicpixels/Node-Lofty.git"
+    "url": "https://github.com/volcanicpixels/Node-Lofty.git"
   },
-  "devDependencies": {
+  "author": "Daniel Chatfield",
+  "license": "GPLv2",
+  "dependencies": {
+    "commander": "1.0.x"
   }
 }
