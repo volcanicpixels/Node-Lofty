@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\Daniel\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\Daniel\AppData\Roaming\npm\package.json
+9 verbose read json C:\Users\Daniel\AppData\Roaming\npm\package.json
+10 verbose cache add [ '.', null ]
+11 silly cache add name=undefined spec="." args=[".",null]
+12 verbose parsed url { pathname: '.', path: '.', href: '.' }
+13 silly lockFile 3a52ce78- .
+14 verbose lock . C:\Users\Daniel\AppData\Roaming\npm-cache\3a52ce78-.lock
+15 verbose read json package.json
+16 silly lockFile 3a52ce78- .
+17 error addLocal Could not install .
+18 error Error: ENOENT, open 'D:\Projects\Lofty\src\package.json'
+19 error If you need help, you may report this log at:
+19 error     <http://github.com/isaacs/npm/issues>
+19 error or email it to:
+19 error     <npm-@googlegroups.com>
+20 error System Windows_NT 6.2.9200
+21 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g"
+22 error cwd D:\Projects\Lofty\src
+23 error node -v v0.8.4
+24 error npm -v 1.1.45
+25 error path D:\Projects\Lofty\src\package.json
+26 error code ENOENT
+27 error errno 34
+28 verbose exit [ 34, true ]
