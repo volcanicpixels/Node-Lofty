@@ -26,9 +26,12 @@ Lofty uses a configuration file (lofty.yml)
 ## Building
 This creates a development build (no minifying) and puts it in the build directory.
 
-    $ lofty build
+    $ lofty
 
 ## Distribution builds
 When you are ready to distribute this will create a copy in the dist folder.
 
-    $ lofty build-dist
+    $ lofty -d
+
+## Verbose messaging
+    $ lofty -v
