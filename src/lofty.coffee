@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 ###
-<<<<<<< HEAD
  Settings
 ###
 
@@ -315,7 +314,7 @@ compiledAssets = ->
 namespaceClasses = ->
 	logging.verbose 'Namespacing php classes'
 	namespaceClassesWorker getAbsDir()
-	cleanUpDir()
+	lavaVars()
 
 
 namespaceClassesWorker = (dir) ->
@@ -338,6 +337,29 @@ namespaceClassesWorker = (dir) ->
 
 				fs.writeFileSync absFile, code
 
+
+lavaVars = ->
+	logging.verbose 'Parsing lava vars'
+	lavaVarsWorker getAbsDir()
+	cleanUpDir()
+
+
+lavaVarsWorker = (dir) ->
+	files = fs.readdirSync( dir )
+	ns = configuration.class_namespace
+	for file in files
+		absFile = dir + '/' + file
+		if fs.statSync(absFile).isDirectory()
+			lavaVarsWorker(absFile)
+		else
+			if file.substr(-4) == ('.php' or '.txt') 
+				code = fs.readFileSync absFile, FILE_ENCODING
+
+				for variable of configuration
+					pattern = new RegExp( "\\{\\{\\s*lava.#{variable}\\s*\\}\\}" )
+					code = code.replace pattern, configuration[variable]
+
+				fs.writeFileSync absFile, code
 
 # Cleanup files
 
@@ -389,16 +411,3 @@ downQueue = ->
 	queue = queue - 1
 	if queue == 0
 		return true
-=======
- Module dependencies
-###
-
-program = require('commander');
-
-program
-  .version('1.0.0')
-  .option('-d, --distribute', 'Build distribution version')
-  .parse(process.argv);
-
-if (program.distribute) console.log('Building distribution copy') else console.log('Building development copy');
->>>>>>> 3effac8fc271f3f0020966e4f7a18f192426b187
