@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 ###
+<<<<<<< HEAD
  Settings
 ###
 
@@ -388,3 +389,16 @@ downQueue = ->
 	queue = queue - 1
 	if queue == 0
 		return true
+=======
+ Module dependencies
+###
+
+program = require('commander');
+
+program
+  .version('1.0.0')
+  .option('-d, --distribute', 'Build distribution version')
+  .parse(process.argv);
+
+if (program.distribute) console.log('Building distribution copy') else console.log('Building development copy');
+>>>>>>> 3effac8fc271f3f0020966e4f7a18f192426b187

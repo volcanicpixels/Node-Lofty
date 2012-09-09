@@ -1,0 +1,475 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\Daniel\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\Daniel\AppData\Roaming\npm\package.json
+9 verbose read json C:\Users\Daniel\AppData\Roaming\npm\package.json
+10 verbose cache add [ '.', null ]
+11 silly cache add name=undefined spec="." args=[".",null]
+12 verbose parsed url { pathname: '.', path: '.', href: '.' }
+13 silly lockFile 3a52ce78- .
+14 verbose lock . C:\Users\Daniel\AppData\Roaming\npm-cache\3a52ce78-.lock
+15 verbose read json package.json
+16 verbose tar pack [ 'C:\\Users\\Daniel\\AppData\\Local\\Temp\\npm-9648\\1346597142161-0.7706193821504712\\tmp.tgz',
+16 verbose tar pack   '.' ]
+17 verbose tarball C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\tmp.tgz
+18 verbose folder .
+19 info prepublish lofty@1.0.0
+20 silly lockFile ce5d39a4-42161-0-7706193821504712-tmp-tgz C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\tmp.tgz
+21 verbose lock C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\tmp.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\ce5d39a4-42161-0-7706193821504712-tmp-tgz.lock
+22 silly lockFile ce5d39a4-42161-0-7706193821504712-tmp-tgz C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\tmp.tgz
+23 verbose tar unpack C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\tmp.tgz
+24 silly lockFile 0af0ca57-42161-0-7706193821504712-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package
+25 verbose lock C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package C:\Users\Daniel\AppData\Roaming\npm-cache\0af0ca57-42161-0-7706193821504712-package.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+31 silly gunzTarPerm extractEntry lofty.js
+32 silly gunzTarPerm modified mode [ 'lofty.js', 438, 420 ]
+33 silly gunzTarPerm extractEntry .gitattributes
+34 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+35 silly gunzTarPerm extractEntry lib/lofty.js
+36 silly gunzTarPerm modified mode [ 'lib/lofty.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry lib/test.js
+38 silly gunzTarPerm modified mode [ 'lib/test.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry readme.md
+40 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+41 silly gunzTarPerm extractEntry src/lofty.coffee
+42 silly gunzTarPerm modified mode [ 'src/lofty.coffee', 438, 420 ]
+43 silly gunzTarPerm extractEntry src/test.coffee
+44 silly gunzTarPerm modified mode [ 'src/test.coffee', 438, 420 ]
+45 verbose read json C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package\package.json
+46 silly lockFile 0af0ca57-42161-0-7706193821504712-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package
+47 verbose from cache C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package\package.json
+48 verbose tar pack [ 'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\lofty\\1.0.0\\package.tgz',
+48 verbose tar pack   'C:\\Users\\Daniel\\AppData\\Local\\Temp\\npm-9648\\1346597142161-0.7706193821504712\\package' ]
+49 verbose tarball C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+50 verbose folder C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597142161-0.7706193821504712\package
+51 silly lockFile ac4e56f9-pm-cache-lofty-1-0-0-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+52 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\ac4e56f9-pm-cache-lofty-1-0-0-package-tgz.lock
+53 silly lockFile ac4e56f9-pm-cache-lofty-1-0-0-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+54 silly lockFile c594dcdf-ng-npm-cache-lofty-1-0-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package
+55 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\c594dcdf-ng-npm-cache-lofty-1-0-0-package.lock
+56 silly lockFile c594dcdf-ng-npm-cache-lofty-1-0-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package
+57 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+58 silly lockFile c594dcdf-ng-npm-cache-lofty-1-0-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package
+59 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\c594dcdf-ng-npm-cache-lofty-1-0-0-package.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+65 silly gunzTarPerm extractEntry lofty.js
+66 silly gunzTarPerm modified mode [ 'lofty.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry .gitattributes
+68 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+69 silly gunzTarPerm extractEntry lib/lofty.js
+70 silly gunzTarPerm modified mode [ 'lib/lofty.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry lib/test.js
+72 silly gunzTarPerm modified mode [ 'lib/test.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry readme.md
+74 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+75 silly gunzTarPerm extractEntry src/lofty.coffee
+76 silly gunzTarPerm modified mode [ 'src/lofty.coffee', 438, 420 ]
+77 silly gunzTarPerm extractEntry src/test.coffee
+78 silly gunzTarPerm modified mode [ 'src/test.coffee', 438, 420 ]
+79 verbose read json C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package\package.json
+80 silly lockFile c594dcdf-ng-npm-cache-lofty-1-0-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package
+81 silly shasum updated bytes 2506
+82 info shasum 6d74c1cdc662f6596a7d462580b21b96ee698eb4
+82 info shasum C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+83 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package\package.json
+84 verbose chmod C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz 644
+85 silly chown skipping for windows C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+86 silly lockFile 3a52ce78- .
+87 silly resolved [ { name: 'lofty',
+87 silly resolved     version: '1.0.0',
+87 silly resolved     description: 'A builder for WordPress plugins created with the Lava Framework.',
+87 silly resolved     scripts: { test: 'node ./lib/test.js test' },
+87 silly resolved     repository:
+87 silly resolved      { type: 'git',
+87 silly resolved        url: 'https://github.com/volcanicpixels/Node-Lofty.git' },
+87 silly resolved     author: { name: 'Daniel Chatfield' },
+87 silly resolved     license: 'GPLv2',
+87 silly resolved     dependencies: { commander: '1.0.3' },
+87 silly resolved     directories: { lib: './lib', bin: './bin' },
+87 silly resolved     bin: { lofty: './bin/lofty' },
+87 silly resolved     main: '/lib/lofty.js',
+87 silly resolved     readme: '# Lofty\n\nLofty (named after the character from Bob The Builder) is a build script for WordPress plugins created using the Lava framework.\n\n## Features\n- Compiles, concatenates and minifies coffeescript\n- Compiles, concatenates and minifies LESS\n- Namespaces LAVA_ classes\n- Plugin header creation (requires flag)\n\n## Installation\n    $ npm install -g lofty\n\n## Configuration file\nLofty uses a configuration file (lofty.yml)\n    \n    name: Blank Plugin\n    version: 1.0\n    description: Blank Plugin - update configuration in lava.yaml\n    url: http://www.google.com\n    author: Daniel Chatfield\n    author_url: http://www.volcanicpixels.com\n    license: GPLv2\n    class_namespace: Volcanic_Pixels_Blank_Plugin    \n\n## Building\nThis creates a development build (no minifying) and puts it in the build directory.\n\n    $ lofty build\n\n## Distribution builds\nWhen you are ready to distribute this will create a copy in the dist folder.\n\n    $ lofty build-dist',
+87 silly resolved     _id: 'lofty@1.0.0',
+87 silly resolved     dist: { shasum: '6d74c1cdc662f6596a7d462580b21b96ee698eb4' },
+87 silly resolved     _from: '.' } ]
+88 info install lofty@1.0.0 into C:\Users\Daniel\AppData\Roaming\npm
+89 info installOne lofty@1.0.0
+90 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package\package.json
+91 info C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty unbuild
+92 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+93 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\lofty\1.0.0\package.tgz
+94 silly lockFile f4bdb91c-a-Roaming-npm-node-modules-lofty C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty
+95 verbose lock C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty C:\Users\Daniel\AppData\Roaming\npm-cache\f4bdb91c-a-Roaming-npm-node-modules-lofty.lock
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+101 silly gunzTarPerm extractEntry lofty.js
+102 silly gunzTarPerm modified mode [ 'lofty.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry .gitattributes
+104 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+105 silly gunzTarPerm extractEntry lib/lofty.js
+106 silly gunzTarPerm modified mode [ 'lib/lofty.js', 438, 420 ]
+107 silly gunzTarPerm extractEntry lib/test.js
+108 silly gunzTarPerm modified mode [ 'lib/test.js', 438, 420 ]
+109 silly gunzTarPerm extractEntry readme.md
+110 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+111 silly gunzTarPerm extractEntry src/lofty.coffee
+112 silly gunzTarPerm modified mode [ 'src/lofty.coffee', 438, 420 ]
+113 silly gunzTarPerm extractEntry src/test.coffee
+114 silly gunzTarPerm modified mode [ 'src/test.coffee', 438, 420 ]
+115 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+116 silly lockFile f4bdb91c-a-Roaming-npm-node-modules-lofty C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty
+117 info preinstall lofty@1.0.0
+118 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+119 verbose readDependencies using package.json deps
+120 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+121 verbose readDependencies using package.json deps
+122 verbose cache add [ 'commander@1.0.3', null ]
+123 silly cache add name=undefined spec="commander@1.0.3" args=["commander@1.0.3",null]
+124 verbose parsed url { pathname: 'commander@1.0.3',
+124 verbose parsed url   path: 'commander@1.0.3',
+124 verbose parsed url   href: 'commander@1.0.3' }
+125 silly cache add name="commander" spec="1.0.3" args=["commander","1.0.3"]
+126 verbose parsed url { pathname: '1.0.3', path: '1.0.3', href: '1.0.3' }
+127 verbose addNamed [ 'commander', '1.0.3' ]
+128 verbose addNamed [ '1.0.3', '1.0.3' ]
+129 silly lockFile 5dcc8bc2-commander-1-0-3 commander@1.0.3
+130 verbose lock commander@1.0.3 C:\Users\Daniel\AppData\Roaming\npm-cache\5dcc8bc2-commander-1-0-3.lock
+131 verbose url raw commander/1.0.3
+132 verbose url resolving [ 'https://registry.npmjs.org/', './commander/1.0.3' ]
+133 verbose url resolved https://registry.npmjs.org/commander/1.0.3
+134 info retry registry request attempt 1 at 15:45:42
+135 http GET https://registry.npmjs.org/commander/1.0.3
+136 http 200 https://registry.npmjs.org/commander/1.0.3
+137 silly registry.get cb [ 200,
+137 silly registry.get   { vary: 'Accept',
+137 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+137 silly registry.get     etag: '"12E8JI0ZLXZ27GX5NHY9WF5CR"',
+137 silly registry.get     date: 'Sun, 02 Sep 2012 14:45:55 GMT',
+137 silly registry.get     'content-type': 'application/json',
+137 silly registry.get     'content-length': '7720' } ]
+138 silly lockFile 3a9927cb-rg-commander-commander-1-0-3-tgz https://registry.npmjs.org/commander/-/commander-1.0.3.tgz
+139 verbose lock https://registry.npmjs.org/commander/-/commander-1.0.3.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\3a9927cb-rg-commander-commander-1-0-3-tgz.lock
+140 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-1.0.3.tgz',
+140 verbose addRemoteTarball   '037451a770f85c2fbb760e2911757fd79a366e2a' ]
+141 info retry fetch attempt 1 at 15:45:43
+142 verbose fetch to= C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\tmp.tgz
+143 http GET https://registry.npmjs.org/commander/-/commander-1.0.3.tgz
+144 http 200 https://registry.npmjs.org/commander/-/commander-1.0.3.tgz
+145 silly shasum updated bytes 10155
+146 info shasum 037451a770f85c2fbb760e2911757fd79a366e2a
+146 info shasum C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\tmp.tgz
+147 verbose tar unpack C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\tmp.tgz
+148 silly lockFile 83460a8f-3403-0-16147884540259838-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package
+149 verbose lock C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package C:\Users\Daniel\AppData\Roaming\npm-cache\83460a8f-3403-0-16147884540259838-package.lock
+150 silly gunzTarPerm modes [ '755', '644' ]
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm extractEntry .npmignore
+153 silly gunzTarPerm extractEntry index.js
+154 silly gunzTarPerm extractEntry .travis.yml
+155 silly gunzTarPerm extractEntry History.md
+156 silly gunzTarPerm extractEntry lib/commander.js
+157 silly gunzTarPerm extractEntry Makefile
+158 silly gunzTarPerm extractEntry Readme.md
+159 verbose read json C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package\package.json
+160 silly lockFile 83460a8f-3403-0-16147884540259838-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package
+161 verbose from cache C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package\package.json
+162 verbose tar pack [ 'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\commander\\1.0.3\\package.tgz',
+162 verbose tar pack   'C:\\Users\\Daniel\\AppData\\Local\\Temp\\npm-9648\\1346597143403-0.16147884540259838\\package' ]
+163 verbose tarball C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+164 verbose folder C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597143403-0.16147884540259838\package
+165 silly lockFile a5693242-ache-commander-1-0-3-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+166 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\a5693242-ache-commander-1-0-3-package-tgz.lock
+167 silly lockFile a5693242-ache-commander-1-0-3-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+168 silly lockFile e8209017-pm-cache-commander-1-0-3-package C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package
+169 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package C:\Users\Daniel\AppData\Roaming\npm-cache\e8209017-pm-cache-commander-1-0-3-package.lock
+170 silly lockFile e8209017-pm-cache-commander-1-0-3-package C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package
+171 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+172 silly lockFile e8209017-pm-cache-commander-1-0-3-package C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package
+173 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package C:\Users\Daniel\AppData\Roaming\npm-cache\e8209017-pm-cache-commander-1-0-3-package.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+177 silly gunzTarPerm extractEntry .npmignore
+178 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+179 silly gunzTarPerm extractEntry index.js
+180 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry .travis.yml
+182 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+183 silly gunzTarPerm extractEntry History.md
+184 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+185 silly gunzTarPerm extractEntry lib/commander.js
+186 silly gunzTarPerm modified mode [ 'lib/commander.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry Makefile
+188 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+189 silly gunzTarPerm extractEntry Readme.md
+190 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+191 verbose read json C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package\package.json
+192 silly lockFile e8209017-pm-cache-commander-1-0-3-package C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package
+193 silly shasum updated bytes 10103
+194 info shasum 9cbed9b8b1a4249e3f443ec9b3d9df7e3efc9ef6
+194 info shasum C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+195 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package\package.json
+196 verbose chmod C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz 644
+197 silly chown skipping for windows C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+198 silly lockFile 3a9927cb-rg-commander-commander-1-0-3-tgz https://registry.npmjs.org/commander/-/commander-1.0.3.tgz
+199 silly lockFile 5dcc8bc2-commander-1-0-3 commander@1.0.3
+200 silly resolved [ { name: 'commander',
+200 silly resolved     version: '1.0.3',
+200 silly resolved     description: 'the complete solution for node.js command-line programs',
+200 silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+200 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+200 silly resolved     repository:
+200 silly resolved      { type: 'git',
+200 silly resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+200 silly resolved     dependencies: { keypress: '0.1.x' },
+200 silly resolved     devDependencies: { should: '>= 0.0.1' },
+200 silly resolved     scripts: { test: 'make test' },
+200 silly resolved     main: 'index',
+200 silly resolved     engines: { node: '>= 0.6.x' },
+200 silly resolved     readme: '# Commander.js\n\n  The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby\'s [commander](https://github.com/visionmedia/commander).\n\n [![Build Status](https://secure.travis-ci.org/visionmedia/commander.js.png)](http://travis-ci.org/visionmedia/commander.js)\n\n## Installation\n\n    $ npm install commander\n\n## Option parsing\n\n Options with commander are defined with the `.option()` method, also serving as documentation for the options. The example below parses args and options from `process.argv`, leaving remaining args as the `program.args` array which were not consumed by options.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'commander\');\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-p, --peppers\', \'Add peppers\')\n  .option(\'-P, --pineapple\', \'Add pineapple\')\n  .option(\'-b, --bbq\', \'Add bbq sauce\')\n  .option(\'-c, --cheese [type]\', \'Add the specified type of cheese [marble]\', \'marble\')\n  .parse(process.argv);\n\nconsole.log(\'you ordered a pizza with:\');\nif (program.peppers) console.log(\'  - peppers\');\nif (program.pineapple) console.log(\'  - pineappe\');\nif (program.bbq) console.log(\'  - bbq\');\nconsole.log(\'  - %s cheese\', program.cheese);\n```\n\n Short flags may be passed as a single arg, for example `-abc` is equivalent to `-a -b -c`. Multi-word options such as "--template-engine" are camel-cased, becoming `program.templateEngine` etc.\n\n## Automated --help\n\n The help information is auto-generated based on the information commander already knows about your program, so the following `--help` info is for free:\n\n```  \n $ ./examples/pizza --help\n\n   Usage: pizza [options]\n\n   Options:\n\n     -V, --version        output the version number\n     -p, --peppers        Add peppers\n     -P, --pineapple      Add pineappe\n     -b, --bbq            Add bbq sauce\n     -c, --cheese <type>  Add the specified type of cheese [marble]\n     -h, --help           output usage information\n\n```\n\n## Coercion\n\n```js\nfunction range(val) {\n  return val.split(\'..\').map(Number);\n}\n\nfunction list(val) {\n  return val.split(\',\');\n}\n\nprogram\n  .version(\'0.0.1\')\n  .usage(\'[options] <file ...>\')\n  .option(\'-i, --integer <n>\', \'An integer argument\', parseInt)\n  .option(\'-f, --float <n>\', \'A float argument\', parseFloat)\n  .option(\'-r, --range <a>..<b>\', \'A range\', range)\n  .option(\'-l, --list <items>\', \'A list\', list)\n  .option(\'-o, --optional [value]\', \'An optional value\')\n  .parse(process.argv);\n\nconsole.log(\' int: %j\', program.integer);\nconsole.log(\' float: %j\', program.float);\nconsole.log(\' optional: %j\', program.optional);\nprogram.range = program.range || [];\nconsole.log(\' range: %j..%j\', program.range[0], program.range[1]);\nconsole.log(\' list: %j\', program.list);\nconsole.log(\' args: %j\', program.args);\n```\n\n## Custom help\n\n You can display arbitrary `-h, --help` information\n by listening for "--help". Commander will automatically\n exit once you are done so that the remainder of your program\n does not execute causing undesired behaviours, for example\n in the following executable "stuff" will not output when\n `--help` is used.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'../\');\n\nfunction list(val) {\n  return val.split(\',\').map(Number);\n}\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-f, --foo\', \'enable some foo\')\n  .option(\'-b, --bar\', \'enable some bar\')\n  .option(\'-B, --baz\', \'enable some baz\');\n\n// must be before .parse() since\n// node\'s emit() is immediate\n\nprogram.on(\'--help\', function(){\n  console.log(\'  Examples:\');\n  console.log(\'\');\n  console.log(\'    $ custom-help --help\');\n  console.log(\'    $ custom-help -h\');\n  console.log(\'\');\n});\n\nprogram.parse(process.argv);\n\nconsole.log(\'stuff\');\n```\n\nyielding the following help output:\n\n```\n\nUsage: custom-help [options]\n\nOptions:\n\n  -h, --help     output usage information\n  -V, --version  output the version number\n  -f, --foo      enable some foo\n  -b, --bar      enable some bar\n  -B, --baz      enable some baz\n\nExamples:\n\n  $ custom-help --help\n  $ custom-help -h\n\n```\n\n## .prompt(msg, fn)\n\n Single-line prompt:\n\n```js\nprogram.prompt(\'name: \', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Multi-line prompt:\n\n```js\nprogram.prompt(\'description:\', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Coercion:\n\n```js\nprogram.prompt(\'Age: \', Number, function(age){\n  console.log(\'age: %j\', age);\n});\n```\n\n```js\nprogram.prompt(\'Birthdate: \', Date, function(date){\n  console.log(\'date: %s\', date);\n});\n```\n\n## .password(msg[, mask], fn)\n\nPrompt for password without echoing:\n\n```js\nprogram.password(\'Password: \', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\nPrompt for password with mask char "*":\n\n```js\nprogram.password(\'Password: \', \'*\', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\n## .confirm(msg, fn)\n\n Confirm with the given `msg`:\n\n```js\nprogram.confirm(\'continue? \', function(ok){\n  console.log(\' got %j\', ok);\n});\n```\n\n## .choose(list, fn)\n\n Let the user choose from a `list`:\n\n```js\nvar list = [\'tobi\', \'loki\', \'jane\', \'manny\', \'luna\'];\n\nconsole.log(\'Choose the coolest pet:\');\nprogram.choose(list, function(i){\n  console.log(\'you chose %d "%s"\', i, list[i]);\n});\n```\n\n## Links\n\n - [API documentation](http://visionmedia.github.com/commander.js/)\n - [ascii tables](https://github.com/LearnBoost/cli-table)\n - [progress bars](https://github.com/visionmedia/node-progress)\n - [more progress bars](https://github.com/substack/node-multimeter)\n - [examples](https://github.com/visionmedia/commander.js/tree/master/examples)\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+200 silly resolved     _id: 'commander@1.0.3',
+200 silly resolved     dist: { shasum: '9cbed9b8b1a4249e3f443ec9b3d9df7e3efc9ef6' },
+200 silly resolved     _from: 'commander@1.0.3' } ]
+201 info install commander@1.0.3 into C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty
+202 info installOne commander@1.0.3
+203 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package\package.json
+204 info C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander unbuild
+205 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\package.json
+206 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\commander\1.0.3\package.tgz
+207 silly lockFile 87b80096-les-lofty-node-modules-commander C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander
+208 verbose lock C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander C:\Users\Daniel\AppData\Roaming\npm-cache\87b80096-les-lofty-node-modules-commander.lock
+209 silly gunzTarPerm modes [ '755', '644' ]
+210 silly gunzTarPerm extractEntry package.json
+211 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+212 silly gunzTarPerm extractEntry .npmignore
+213 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+214 silly gunzTarPerm extractEntry index.js
+215 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry .travis.yml
+217 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+218 silly gunzTarPerm extractEntry History.md
+219 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+220 silly gunzTarPerm extractEntry lib/commander.js
+221 silly gunzTarPerm modified mode [ 'lib/commander.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry Makefile
+223 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+224 silly gunzTarPerm extractEntry Readme.md
+225 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+226 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\package.json
+227 silly lockFile 87b80096-les-lofty-node-modules-commander C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander
+228 info preinstall commander@1.0.3
+229 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\package.json
+230 verbose readDependencies using package.json deps
+231 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\package.json
+232 verbose readDependencies using package.json deps
+233 verbose cache add [ 'keypress@0.1.x', null ]
+234 silly cache add name=undefined spec="keypress@0.1.x" args=["keypress@0.1.x",null]
+235 verbose parsed url { pathname: 'keypress@0.1.x',
+235 verbose parsed url   path: 'keypress@0.1.x',
+235 verbose parsed url   href: 'keypress@0.1.x' }
+236 silly cache add name="keypress" spec="0.1.x" args=["keypress","0.1.x"]
+237 verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+238 verbose addNamed [ 'keypress', '0.1.x' ]
+239 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+240 silly lockFile a3a73622-keypress-0-1-x keypress@0.1.x
+241 verbose lock keypress@0.1.x C:\Users\Daniel\AppData\Roaming\npm-cache\a3a73622-keypress-0-1-x.lock
+242 silly addNameRange { name: 'keypress', range: '>=0.1.0- <0.2.0-', hasData: false }
+243 verbose url raw keypress
+244 verbose url resolving [ 'https://registry.npmjs.org/', './keypress' ]
+245 verbose url resolved https://registry.npmjs.org/keypress
+246 info retry registry request attempt 1 at 15:45:44
+247 http GET https://registry.npmjs.org/keypress
+248 http 200 https://registry.npmjs.org/keypress
+249 silly registry.get cb [ 200,
+249 silly registry.get   { vary: 'Accept',
+249 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+249 silly registry.get     etag: '"C8EZNVRCQX0JQTA3YMNAL9GAY"',
+249 silly registry.get     date: 'Sun, 02 Sep 2012 14:45:57 GMT',
+249 silly registry.get     'content-type': 'application/json',
+249 silly registry.get     'content-length': '12353' } ]
+250 silly addNameRange number 2 { name: 'keypress', range: '>=0.1.0- <0.2.0-', hasData: true }
+251 silly addNameRange versions [ 'keypress', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+252 verbose addNamed [ 'keypress', '0.1.0' ]
+253 verbose addNamed [ '0.1.0', '0.1.0' ]
+254 silly lockFile 22598b8c-keypress-0-1-0 keypress@0.1.0
+255 verbose lock keypress@0.1.0 C:\Users\Daniel\AppData\Roaming\npm-cache\22598b8c-keypress-0-1-0.lock
+256 silly lockFile d5229f19--org-keypress-keypress-0-1-0-tgz https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+257 verbose lock https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\d5229f19--org-keypress-keypress-0-1-0-tgz.lock
+258 verbose addRemoteTarball [ 'https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz',
+258 verbose addRemoteTarball   '4a3188d4291b66b4f65edb99f806aa9ae293592a' ]
+259 info retry fetch attempt 1 at 15:45:45
+260 verbose fetch to= C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\tmp.tgz
+261 http GET https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+262 http 200 https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+263 silly shasum updated bytes 4485
+264 info shasum 4a3188d4291b66b4f65edb99f806aa9ae293592a
+264 info shasum C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\tmp.tgz
+265 verbose tar unpack C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\tmp.tgz
+266 silly lockFile 4566e59a-5851-0-06266544945538044-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package
+267 verbose lock C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package C:\Users\Daniel\AppData\Roaming\npm-cache\4566e59a-5851-0-06266544945538044-package.lock
+268 silly gunzTarPerm modes [ '755', '644' ]
+269 silly gunzTarPerm extractEntry package.json
+270 silly gunzTarPerm extractEntry README.md
+271 silly gunzTarPerm extractEntry index.js
+272 silly gunzTarPerm extractEntry test.js
+273 verbose read json C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package\package.json
+274 silly lockFile 4566e59a-5851-0-06266544945538044-package C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package
+275 verbose from cache C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package\package.json
+276 verbose tar pack [ 'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\keypress\\0.1.0\\package.tgz',
+276 verbose tar pack   'C:\\Users\\Daniel\\AppData\\Local\\Temp\\npm-9648\\1346597145851-0.06266544945538044\\package' ]
+277 verbose tarball C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+278 verbose folder C:\Users\Daniel\AppData\Local\Temp\npm-9648\1346597145851-0.06266544945538044\package
+279 silly lockFile 9fcf5317-cache-keypress-0-1-0-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+280 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\9fcf5317-cache-keypress-0-1-0-package-tgz.lock
+281 silly lockFile 9fcf5317-cache-keypress-0-1-0-package-tgz C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+282 silly lockFile 5bf778a5-npm-cache-keypress-0-1-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package
+283 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\5bf778a5-npm-cache-keypress-0-1-0-package.lock
+284 silly lockFile 5bf778a5-npm-cache-keypress-0-1-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package
+285 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+286 silly lockFile 5bf778a5-npm-cache-keypress-0-1-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package
+287 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\5bf778a5-npm-cache-keypress-0-1-0-package.lock
+288 silly gunzTarPerm modes [ '755', '644' ]
+289 silly gunzTarPerm extractEntry package.json
+290 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+291 silly gunzTarPerm extractEntry README.md
+292 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+293 silly gunzTarPerm extractEntry index.js
+294 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+295 silly gunzTarPerm extractEntry test.js
+296 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+297 verbose read json C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package\package.json
+298 silly lockFile 5bf778a5-npm-cache-keypress-0-1-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package
+299 silly shasum updated bytes 4464
+300 info shasum d3a36ba7ce83ea5697a05ecbfa431c78a895c9bb
+300 info shasum C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+301 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package\package.json
+302 verbose chmod C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz 644
+303 silly chown skipping for windows C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+304 silly lockFile d5229f19--org-keypress-keypress-0-1-0-tgz https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+305 silly lockFile 22598b8c-keypress-0-1-0 keypress@0.1.0
+306 silly lockFile a3a73622-keypress-0-1-x keypress@0.1.x
+307 silly resolved [ { name: 'keypress',
+307 silly resolved     version: '0.1.0',
+307 silly resolved     description: 'Make any Node ReadableStream emit "keypress" events',
+307 silly resolved     author:
+307 silly resolved      { name: 'Nathan Rajlich',
+307 silly resolved        email: 'nathan@tootallnate.net',
+307 silly resolved        url: 'http://tootallnate.net' },
+307 silly resolved     main: 'index.js',
+307 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+307 silly resolved     repository:
+307 silly resolved      { type: 'git',
+307 silly resolved        url: 'git://github.com/TooTallNate/keypress.git' },
+307 silly resolved     keywords: [ 'keypress', 'readline', 'core' ],
+307 silly resolved     license: 'MIT',
+307 silly resolved     readme: 'keypress\n========\n### Make any Node ReadableStream emit "keypress" events\n\n\nPrevious to Node `v0.8.x`, there was an undocumented `"keypress"` event that\n`process.stdin` would emit when it was a TTY. Some people discovered this hidden\ngem, and started using it in their own code.\n\nNow in Node `v0.8.x`, this `"keypress"` event does not get emitted by default,\nbut rather only when it is being used in conjuction with the `readline` (or by\nextension, the `repl`) module.\n\nThis module is the exact logic from the node `v0.8.x` releases ripped out into its\nown module.\n\n__Bonus:__ Now with mouse support!\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install keypress\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n#### Listening for "keypress" events\n\n``` js\nvar keypress = require(\'keypress\');\n\n// make `process.stdin` begin emitting "keypress" events\nkeypress(process.stdin);\n\n// listen for the "keypress" event\nprocess.stdin.on(\'keypress\', function (ch, key) {\n  console.log(\'got "keypress"\', key);\n  if (key && key.ctrl && key.name == \'c\') {\n    process.stdin.pause();\n  }\n});\n\nprocess.stdin.setRawMode(true);\nprocess.stdin.resume();\n```\n\n#### Listening for "mousepress" events\n\n``` js\nvar keypress = require(\'keypress\');\n\n// make `process.stdin` begin emitting "mousepress" (and "keypress") events\nkeypress(process.stdin);\n\n// you must enable the mouse events before they will begin firing\nkeypress.enableMouse(process.stdout);\n\nprocess.stdin.on(\'mousepress\', function (info) {\n  console.log(\'got "mousepress" event at %d x %d\', info.x, info.y);\n});\n\nprocess.on(\'exit\', function () {\n  // disable mouse on exit, so that the state\n  // is back to normal for the terminal\n  keypress.disableMouse(process.stdout);\n});\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+307 silly resolved     _id: 'keypress@0.1.0',
+307 silly resolved     dist: { shasum: 'd3a36ba7ce83ea5697a05ecbfa431c78a895c9bb' },
+307 silly resolved     _from: 'keypress@0.1.x' } ]
+308 info install keypress@0.1.0 into C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander
+309 info installOne keypress@0.1.0
+310 verbose from cache C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package\package.json
+311 info C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress unbuild
+312 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress\package.json
+313 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+314 silly lockFile 5ea20ef7--commander-node-modules-keypress C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress
+315 verbose lock C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress C:\Users\Daniel\AppData\Roaming\npm-cache\5ea20ef7--commander-node-modules-keypress.lock
+316 silly gunzTarPerm modes [ '755', '644' ]
+317 silly gunzTarPerm extractEntry package.json
+318 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+319 silly gunzTarPerm extractEntry README.md
+320 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+321 silly gunzTarPerm extractEntry index.js
+322 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry test.js
+324 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+325 verbose read json C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress\package.json
+326 silly lockFile 5ea20ef7--commander-node-modules-keypress C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress
+327 info preinstall keypress@0.1.0
+328 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress\package.json
+329 verbose readDependencies using package.json deps
+330 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress\package.json
+331 verbose readDependencies using package.json deps
+332 silly resolved []
+333 verbose about to build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress
+334 info build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress
+335 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\node_modules\keypress\package.json
+336 verbose linkStuff [ true,
+336 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules',
+336 verbose linkStuff   false,
+336 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules\\lofty\\node_modules\\commander\\node_modules' ]
+337 info linkStuff keypress@0.1.0
+338 verbose linkBins keypress@0.1.0
+339 verbose linkMans keypress@0.1.0
+340 verbose rebuildBundles keypress@0.1.0
+341 info install keypress@0.1.0
+342 info postinstall keypress@0.1.0
+343 verbose about to build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander
+344 info build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander
+345 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\node_modules\commander\package.json
+346 verbose linkStuff [ true,
+346 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules',
+346 verbose linkStuff   false,
+346 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules\\lofty\\node_modules' ]
+347 info linkStuff commander@1.0.3
+348 verbose linkBins commander@1.0.3
+349 verbose linkMans commander@1.0.3
+350 verbose rebuildBundles commander@1.0.3
+351 verbose rebuildBundles [ 'keypress' ]
+352 info install commander@1.0.3
+353 info postinstall commander@1.0.3
+354 verbose about to build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty
+355 info build C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty
+356 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+357 verbose linkStuff [ true,
+357 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules',
+357 verbose linkStuff   true,
+357 verbose linkStuff   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules' ]
+358 info linkStuff lofty@1.0.0
+359 verbose linkBins lofty@1.0.0
+360 verbose link bins [ { lofty: './bin/lofty' },
+360 verbose link bins   'C:\\Users\\Daniel\\AppData\\Roaming\\npm',
+360 verbose link bins   true ]
+361 verbose linkMans lofty@1.0.0
+362 verbose rebuildBundles lofty@1.0.0
+363 verbose rebuildBundles [ 'commander' ]
+364 info C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty unbuild
+365 verbose from cache C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\package.json
+366 info preuninstall lofty@1.0.0
+367 info uninstall lofty@1.0.0
+368 verbose true,C:\Users\Daniel\AppData\Roaming\npm\node_modules,C:\Users\Daniel\AppData\Roaming\npm\node_modules unbuild lofty@1.0.0
+369 verbose C:\Users\Daniel\AppData\Roaming\npm,[object Object] binRoot
+370 info postuninstall lofty@1.0.0
+371 error Error: ENOENT, chmod 'C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\bin\lofty'
+372 error If you need help, you may report this log at:
+372 error     <http://github.com/isaacs/npm/issues>
+372 error or email it to:
+372 error     <npm-@googlegroups.com>
+373 error System Windows_NT 6.2.9200
+374 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g"
+375 error cwd D:\Projects\Node-Lofty
+376 error node -v v0.8.4
+377 error npm -v 1.1.45
+378 error path C:\Users\Daniel\AppData\Roaming\npm\node_modules\lofty\bin\lofty
+379 error code ENOENT
+380 error errno 34
+381 verbose exit [ 34, true ]
