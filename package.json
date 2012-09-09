@@ -1,20 +1,11 @@
 {
   "name": "lofty",
-<<<<<<< HEAD
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A builder for WordPress plugins created with the Lava Framework.",
-=======
-  "version": "1.0.0",
-  "description": "A builder for WordPress plugins created with the Lava Framework.",
-  "scripts": {
-    "test": "node ./lib/test.js test"
-  },
->>>>>>> 3effac8fc271f3f0020966e4f7a18f192426b187
   "repository": {
     "type": "git",
     "url": "https://github.com/volcanicpixels/Node-Lofty.git"
   },
-<<<<<<< HEAD
   "bin": {
     "lofty":  "./bin/lofty"
   },
@@ -30,19 +21,4 @@
     "less":           "1.3.0",
     "coffee-script":  "1.3.3"
   }
-=======
-  "author": "Daniel Chatfield",
-  "license": "GPLv2",
-  "dependencies": {
-    "commander": "1.0.3"
-  },
-  "directories" : {
-    "lib" : "./lib",
-    "bin" : "./bin"
-  },
-  "bin": {
-    "lofty":  "./bin/lofty"
-  },
-  "main": "/lib/lofty.js"
->>>>>>> 3effac8fc271f3f0020966e4f7a18f192426b187
 }
