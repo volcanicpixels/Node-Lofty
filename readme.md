@@ -6,13 +6,21 @@ Lofty (named after the character from Bob The Builder) is a build script for Wor
 - Compiles, concatenates and minifies coffeescript
 - Compiles, concatenates and minifies LESS
 - Namespaces LAVA_ classes
-- Plugin header creation (requires flag)
+- Plugin header creation
 
 ## Installation
     $ npm install -g lofty
 
 ## Configuration file
-Lofty uses a configuration file (lofty.yml)
+Lofty uses a configuration file (lofty.yaml)
+
+    test_server: C:\some location\
+
+
+If you have a local wordpress installation you can set lofty to automatically copy the build files to the test server by specifying its path here.
+
+## Plugin Definition file
+Plugin defintion file (plugin.yaml)
     
     name: Blank Plugin
     version: 1.0
